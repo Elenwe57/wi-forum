@@ -1,0 +1,16 @@
+.ig-wrap{width:300px;margin:auto;background:#fff;font-family:'Open Sans',Arial,sans-serif;color:#000;border-radius:3px;overflow:hidden}.ig-profile{padding:15px}.ig-top{display:flex;align-items:center;gap:12px}.ig-avatar{width:70px;height:70px;border-radius:50%;object-fit:cover}.ig-user{font-weight:700;font-size:15px}.ig-follow{display:inline-block;margin-top:5px;padding:4px 10px;background:#efefef;border-radius:4px;font-size:11px}.ig-stats{display:flex;justify-content:space-around;text-align:center;margin:15px 0;font-size:11px}.ig-stats b{display:block;font-size:14px}.ig-bio{font-size:12px;line-height:1.4}.ig-bio a{color:#00376b;text-decoration:none}.ig-tabs{display:flex;border-top:1px solid #ddd;border-bottom:1px solid #ddd}.ig-tab{width:50%;text-align:center;padding:10px 0;font-size:11px;text-transform:uppercase;cursor:pointer}.ig-tab.active{font-weight:700;border-bottom:2px solid #000}.ig-gallery{display:none;grid-template-columns:repeat(3,1fr);gap:2px}.ig-gallery.active{display:grid}.ig-post{position:relative;aspect-ratio:1/1;overflow:hidden;cursor:pointer;background:#eee}.ig-post img{width:100%;height:100%;object-fit:cover;display:block}.ig-info,.ig-type{position:absolute;color:#fff;text-shadow:0 1px 3px #000}.ig-info{inset:0;display:flex;align-items:center;justify-content:center;gap:10px;background:rgba(0,0,0,.35);opacity:0;font-size:12px}.ig-post:hover .ig-info{opacity:1}.ig-type{top:6px;right:6px;font-size:13px}.ig-modal-bg{display:none;position:fixed;inset:0;background:rgba(0,0,0,.75);z-index:999999;align-items:center;justify-content:center}.ig-modal-bg.active{display:flex}.ig-close{position:fixed;top:18px;right:28px;color:#fff;font-size:36px;cursor:pointer}.ig-modal{width:330px;max-height:90vh;background:#fff;border-radius:4px;overflow:auto}.ig-modal-head{height:45px;display:flex;align-items:center;gap:9px;padding:0 12px;border-bottom:1px solid #eee;font-size:12px;font-weight:700}.ig-modal-head img{width:28px;height:28px;border-radius:50%;object-fit:cover}.ig-modal-img{width:100%;display:block}.ig-actions{display:flex;justify-content:space-between;padding:10px 12px;font-size:18px}.ig-caption{padding:0 12px 12px;font-size:11px;line-height:1.5}.ig-date{padding:0 12px 14px;color:#999;font-size:9px;text-transform:uppercase}.ig-likes{font-weight:700}
+.ig-post video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+}
+
+
+.ig-modal video{
+    width:100%;
+    max-height:70vh;
+    object-fit:contain;
+    display:block;
+    background:#000;
+}
